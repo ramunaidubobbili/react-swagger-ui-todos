@@ -1,0 +1,35 @@
+body,
+.container,
+.modal,
+.list-group .list-group-item {
+  color: #537178;
+}
+.form-control {
+  background: #eef1f8;
+  border-color: #eef1f8;
+}
+.rounded-5,
+.modal .modal-content {
+  border-radius: 0.5rem;
+}
+.shadow.navbar {
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.15) !important;
+}
+.list-group .btn-link {
+  color: #647278;
+}
+.recharts-pie-labels .recharts-layer:last-child {
+  display: none;
+}
+.recharts-pie-labels .recharts-layer {
+  background: #ff0000;
+}
+.modal-open {
+  overflow: hidden;
+}
+
+.notification-alert {
+  z-index: 9999;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
